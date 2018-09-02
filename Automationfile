@@ -16,10 +16,6 @@ pipeline {
       when {
          branch 'master'
       }
-<<<<<<< HEAD
-=======
-
->>>>>>> feature/my_feature_2
       steps {
 	echo "deploying to production"
       }
